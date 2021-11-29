@@ -26,6 +26,3 @@ then
 else echo "<result>Rosetta not installed</result>"
 
 fi
-		
-		
-		

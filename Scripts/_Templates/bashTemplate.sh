@@ -1,28 +1,14 @@
 #!/bin/bash
 
-##########################################################################################
-#
-# DESCRIPTION
-# 
-#
-# AUTHOR
-# Ashley Bronca
-#
-##########################################################################################
-
-##########################################################################################
-################################### Global Variables #####################################
-##########################################################################################
-
 
 # Overall name of the script for logging
-scriptTitle=""
+scriptTitle="XcodeCurl"
 
 # Log directory
-debugDir="/var/log"
+debugDir="/Users/$loggedInUser/Downloads"
 
 # Log file
-debugFile="${debugDir}/${scriptTitle}.log"
+debugFile="${debugDir}/${scriptTitle}.sh"
 
 
 ##########################################################################################
@@ -33,13 +19,7 @@ debugFile="${debugDir}/${scriptTitle}.log"
 setup()
 {
 	
-	# Make sure we're root & creating logging file
-	
-	if [ "$(id -u)" != "0" ]
-	then
-		/bin/echo "This script must be run as root" 1>&2
-		exit 1
-	fi
+	# creating logging file
 	
 	if [ ! -f "${debugFile}" ]
 	then
@@ -62,6 +42,22 @@ start()
 		/bin/echo
 		/bin/echo "Started: $(/bin/date)"
 		/bin/echo
+		
+	} | /usr/bin/tee "${debugFile}"
+	
+}
+
+runScript()
+{
+	
+	# Run Script
+	
+	{
+		
+		cd /Users/$loggedInUser/Downloads/
+		curl --progress-bar "https://artifactory.srv.westpac.com.au/artifactory/A005C5_MOB/Xcode/$xcodeLocation" --output $xcodeLocation
+		sudo pkill -a Terminal
+		sudo rm -rf "/Users/$loggedInUser/Library/Saved Application State/com.apple.Terminal.savedState"
 		
 	} | /usr/bin/tee "${debugFile}"
 	
@@ -90,7 +86,5 @@ finish()
 
 setup 
 start 
-
+runScript 
 finish
-
-

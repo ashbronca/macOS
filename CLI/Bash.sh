@@ -587,15 +587,3 @@
 			if [ "$f1" -ef "$f2" ]
 
 		! 	| #"not" -- reverses the sense of the tests above (returns true if condition absent).
-
-
-
-
-
-
-
-
-
-
-
-

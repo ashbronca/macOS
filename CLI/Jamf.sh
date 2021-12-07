@@ -13,7 +13,7 @@
 
 	--max-time or -m 			#Maximum time–in second–for the operation to complete.
 	--insecure or -k			#Perform insecure SSL connections and transfers.
-	--silent or  				#Do not show a progress meter or error messages.
+	--silent or -s 				#Do not show a progress meter or error messages.
 	--user or -u 				#Specify the user name and password to use for server authentication.
 	--header or -H 				#Extra header to include in the request when sending a request.
 	--request or -X 			#Specify a custom request method to use when communicating with an HTTP server.

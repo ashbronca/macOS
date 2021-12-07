@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict> 
+	<key>ManagedFavorites</key>
+	<array>
+		<dict>
+			<key>toplevel_name</key>
+			<string>My managed favorites folder</string>
+		</dict>
+		<dict>
+			<key>children</key>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>Zendesk</string>
+					<key>url</key>
+					<string>https://techhelpdirect.zendesk.com/agent/dashboard</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>IT Glue</string>
+					<key>url</key>
+					<string>https://techhelpdirect.au.itglue.com/organizations</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Technical</string>
+					<key>url</key>
+					<string>https://techhelpdirect.sharepoint.com/sites/kbase</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Xero</string>
+					<key>url</key>
+					<string>https://go.xero.com/Dashboard/</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Meraki</string>
+					<key>url</key>
+					<string>https://account.meraki.com/secure/login/dashboard_login</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Mimecast</string>
+					<key>url</key>
+					<string>https://login.mimecast.com/u/login/?gta=connect#/login</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Kaseya VSA</string>
+					<key>url</key>
+					<string>https://vsa114.kaseya.net</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Hubspot</string>
+					<key>url</key>
+					<string>https://app.hubspot.com/login</string>
+				</dict>
+			</array>
+			<key>name</key>
+			<string>Internal</string>
+		</dict>
+		<dict>
+			<key>children</key>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>Virus Total</string>
+					<key>url</key>
+					<string>https://www.virustotal.com/gui/</string>
+				</dict>
+			</array>
+			<key>name</key>
+			<string>Security</string>
+		</dict>
+		<dict>
+			<key>children</key>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>Admin Portal</string>
+					<key>url</key>
+					<string>https://admin.microsoft.com</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Partner Portal</string>
+					<key>url</key>
+					<string>https://partner.microsoft.com/en-us/dashboard/home</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Azure AD</string>
+					<key>url</key>
+					<string>https://aad.portal.azure.com</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Azure Portal</string>
+					<key>url</key>
+					<string>https://portal.azure.com/#home</string>
+				</dict>
+			</array>
+			<key>name</key>
+			<string>Microsoft</string>
+		</dict>
+		<dict>
+			<key>children</key>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>Google Workspace</string>
+					<key>url</key>
+					<string>https://accounts.google.com</string>
+				</dict>
+			</array>
+			<key>name</key>
+			<string>Google</string>
+		</dict>
+
+	</array>
+	<key>EditFavoritesEnabled</key>
+	<true/>
+	<key>DefaultBrowserSettingEnabled</key>
+	<false/>
+	<key>HomepageIsNewTabPage</key>
+	<false/>
+	<key>HomepageLocation</key>
+	<string>google.com.au</string>
+	<key>RestoreOnStartupURLs</key>
+	<array>
+		<string>google.com.au</string>
+	</array>
+	<key>RestoreOnStartup</key>
+	<integer>1</integer>
+	<key>ShowHomeButton</key>
+	<true/>
+	<key>IncognitoModeAvailability</key>
+	<integer>1</integer>
+</dict>
+</plist>
+
